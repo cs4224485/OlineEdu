@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="online-microservice-crm" />
+        <module name="online-microservice-edu" />
+        <module name="online-microservice-acl" />
+        <module name="online-common-service-eureka" />
+        <module name="online-microservice-order" />
+        <module name="online-microservice-ucenter" />
+        <module name="online-microservice-oss" />
+        <module name="online-microservice-statistics" />
+        <module name="online-gateway" />
+        <module name="online-microservice-msm" />
+        <module name="online-microservice-vod" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="online-acl" target="1.8" />
+      <module name="online-common" target="1.8" />
+      <module name="online-common-service-eureka" target="1.8" />
+      <module name="online-edu-parent" target="1.8" />
+      <module name="online-gateway" target="1.8" />
+      <module name="online-micro-service-cms" target="1.8" />
+      <module name="online-microservice-acl" target="1.8" />
+      <module name="online-microservice-cms" target="1.8" />
+      <module name="online-microservice-crm" target="1.8" />
+      <module name="online-microservice-edu" target="1.8" />
+      <module name="online-microservice-msm" target="1.8" />
+      <module name="online-microservice-order" target="1.8" />
+      <module name="online-microservice-oss" target="1.8" />
+      <module name="online-microservice-statistics" target="1.8" />
+      <module name="online-microservice-Subject" target="1.8" />
+      <module name="online-microservice-ucenter" target="1.8" />
+      <module name="online-microservice-vod" target="1.8" />
+      <module name="online-springsecurity" target="1.8" />
+      <module name="spring_security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="online-acl" options="-parameters" />
+      <module name="online-common" options="" />
+      <module name="online-common-service-eureka" options="-parameters" />
+      <module name="online-edu-parent" options="-parameters" />
+      <module name="online-gateway" options="-parameters" />
+      <module name="online-micro-service-cms" options="-parameters" />
+      <module name="online-microservice-Subject" options="-parameters" />
+      <module name="online-microservice-acl" options="-parameters" />
+      <module name="online-microservice-cms" options="-parameters" />
+      <module name="online-microservice-crm" options="-parameters" />
+      <module name="online-microservice-edu" options="-parameters" />
+      <module name="online-microservice-msm" options="-parameters" />
+      <module name="online-microservice-order" options="-parameters" />
+      <module name="online-microservice-oss" options="-parameters" />
+      <module name="online-microservice-statistics" options="-parameters" />
+      <module name="online-microservice-ucenter" options="-parameters" />
+      <module name="online-microservice-vod" options="-parameters" />
+      <module name="online-springsecurity" options="-parameters" />
+      <module name="spring_security" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+2020-04-08 15:59:53.013 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-08 15:59:54.435 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-08 15:59:56.328 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-04-08 15:59:56.330 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-08 15:59:57.000 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-08 15:59:57.581 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-08 16:00:02.142 [http-nio-8002-exec-2] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: ONLINE-GATEWAY - MYCOMPUTER:online-gateway:8222
+2020-04-08 16:00:02.143 [http-nio-8002-exec-2] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): ONLINE-GATEWAY - MYCOMPUTER:online-gateway:8222
+2020-04-08 16:00:20.130 [http-nio-8002-exec-5] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: ONLINE-EDU - MYCOMPUTER:online-edu:8001
+2020-04-08 16:00:20.131 [http-nio-8002-exec-5] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): ONLINE-EDU - MYCOMPUTER:online-edu:8001
+2020-04-08 16:22:43.184 [http-nio-8002-exec-5] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-GATEWAY/MYCOMPUTER:online-gateway:8222
+2020-04-08 16:22:43.189 [TaskBatchingWorker-target_127.0.0.1-11] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-GATEWAY/MYCOMPUTER:online-gateway:8222:Cancel@127.0.0.1 failed with response code 404
+2020-04-08 16:22:43.190 [TaskBatchingWorker-target_127.0.0.1-11] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-GATEWAY/MYCOMPUTER:online-gateway:8222:Cancel@127.0.0.1: missing entry.

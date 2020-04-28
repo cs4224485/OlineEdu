@@ -1,0 +1,863 @@
+2020-04-08 15:46:50.861 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-08 15:46:50.872 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-08 15:46:52.494 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-08 15:46:54.851 [restartedMain] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:46:54.856 [restartedMain] WARN  com.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+2020-04-08 15:46:55.909 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:46:55.910 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:46:55.910 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:47:25.870 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:47:25.892 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:47:26.918 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:47:26.919 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:47:26.919 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:47:56.896 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:47:56.921 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:47:57.927 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:47:57.927 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:47:57.927 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:48:27.914 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:48:27.928 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:48:28.938 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:48:28.939 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:48:28.939 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:48:58.923 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:48:58.936 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:48:59.947 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:48:59.948 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:48:59.948 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:49:29.931 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:49:29.941 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:49:30.953 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:49:30.954 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:49:30.954 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:50:00.939 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:50:00.949 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:50:01.962 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:50:01.963 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:50:01.964 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:50:31.946 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:50:31.953 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:50:32.972 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:50:32.972 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:50:32.972 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:51:02.953 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:51:02.959 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:51:03.978 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:51:03.979 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:51:03.980 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:51:33.966 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:51:33.977 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:51:34.996 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:51:34.997 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:51:34.997 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:52:04.975 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:52:04.986 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:52:06.020 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:52:06.020 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:52:06.020 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:52:35.982 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:52:36.007 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:52:37.027 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:52:37.027 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:52:37.027 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:53:06.999 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:53:07.017 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:53:08.034 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:53:08.035 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:53:08.035 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:53:38.005 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:53:38.024 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:53:39.043 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:53:39.043 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:53:39.044 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:54:09.010 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:54:09.031 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:54:10.048 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:54:10.049 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:54:10.049 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:54:40.025 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:54:40.049 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:54:41.057 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:54:41.057 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:54:41.057 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:55:11.031 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:55:11.069 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:55:12.066 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:55:12.066 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:55:12.066 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:55:42.037 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:55:42.088 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:55:43.073 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:55:43.073 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:55:43.073 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:56:13.043 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:56:13.098 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:56:14.079 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:56:14.079 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:56:14.079 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:56:44.050 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:56:44.108 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:56:45.088 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:56:45.089 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:56:45.089 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:57:15.057 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:57:15.115 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:57:16.097 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:57:16.097 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:57:16.098 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:57:46.067 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:57:46.122 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:57:47.104 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:57:47.104 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:57:47.104 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:58:17.074 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:58:17.129 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:58:18.110 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:58:18.110 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:58:18.110 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:58:48.081 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:58:48.135 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:58:49.117 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:58:49.118 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:58:49.118 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:59:19.089 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:59:19.145 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:59:20.123 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:59:20.124 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:59:20.124 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:59:50.102 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:59:50.170 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:59:51.131 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-04-08 15:59:51.131 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-EDU/MYCOMPUTER:online-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-08 15:59:51.131 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:850)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)

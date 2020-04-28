@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/online-common/online-common.iml" filepath="$PROJECT_DIR$/online-common/online-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-common-service-eureka/online-common-service-eureka.iml" filepath="$PROJECT_DIR$/online-common-service-eureka/online-common-service-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-edu-parent/online-edu-parent.iml" filepath="$PROJECT_DIR$/online-edu-parent/online-edu-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-gateway/online-gateway.iml" filepath="$PROJECT_DIR$/online-gateway/online-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-acl/online-microservice-acl.iml" filepath="$PROJECT_DIR$/online-microservice-acl/online-microservice-acl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-crm/online-microservice-crm.iml" filepath="$PROJECT_DIR$/online-microservice-crm/online-microservice-crm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-edu/online-microservice-edu.iml" filepath="$PROJECT_DIR$/online-microservice-edu/online-microservice-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-msm/online-microservice-msm.iml" filepath="$PROJECT_DIR$/online-microservice-msm/online-microservice-msm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-order/online-microservice-order.iml" filepath="$PROJECT_DIR$/online-microservice-order/online-microservice-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-oss/online-microservice-oss.iml" filepath="$PROJECT_DIR$/online-microservice-oss/online-microservice-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-statistics/online-microservice-statistics.iml" filepath="$PROJECT_DIR$/online-microservice-statistics/online-microservice-statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-ucenter/online-microservice-ucenter.iml" filepath="$PROJECT_DIR$/online-microservice-ucenter/online-microservice-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-microservice-vod/online-microservice-vod.iml" filepath="$PROJECT_DIR$/online-microservice-vod/online-microservice-vod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-springsecurity/online-springsecurity.iml" filepath="$PROJECT_DIR$/online-springsecurity/online-springsecurity.iml" />
+    </modules>
+  </component>
+</project>

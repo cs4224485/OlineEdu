@@ -1,0 +1,39 @@
+2020-04-01 11:40:42.300 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-01 11:40:43.630 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 11:40:45.823 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-04-01 11:40:45.824 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 11:40:47.286 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 12:58:06.648 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-01 12:58:07.987 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:58:09.780 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:58:10.355 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 12:58:10.897 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 12:58:11.497 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+2020-04-01 12:58:54.963 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-01 12:58:56.235 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:58:58.066 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-04-01 12:58:58.068 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:58:59.186 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:20:24.059 [http-nio-8002-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-VOD/MYCOMPUTER:online-vod:8103
+2020-04-01 13:20:24.062 [TaskBatchingWorker-target_127.0.0.1-7] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-VOD/MYCOMPUTER:online-vod:8103:Cancel@127.0.0.1 failed with response code 404
+2020-04-01 13:20:24.063 [TaskBatchingWorker-target_127.0.0.1-7] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-VOD/MYCOMPUTER:online-vod:8103:Cancel@127.0.0.1: missing entry.
+2020-04-01 13:22:46.929 [http-nio-8002-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-VOD/MYCOMPUTER:online-vod:8103
+2020-04-01 13:22:46.931 [TaskBatchingWorker-target_127.0.0.1-1] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-VOD/MYCOMPUTER:online-vod:8103:Cancel@127.0.0.1 failed with response code 404
+2020-04-01 13:22:46.932 [TaskBatchingWorker-target_127.0.0.1-1] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-VOD/MYCOMPUTER:online-vod:8103:Cancel@127.0.0.1: missing entry.
+2020-04-01 17:10:24.936 [http-nio-8002-exec-2] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-UCENTER/MYCOMPUTER:online-ucenter:8150
+2020-04-01 17:10:24.939 [http-nio-8002-exec-2] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-VOD/MYCOMPUTER:online-vod:8103
+2020-04-01 17:10:24.941 [TaskBatchingWorker-target_127.0.0.1-11] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-UCENTER/MYCOMPUTER:online-ucenter:8150:Cancel@127.0.0.1 failed with response code 404
+2020-04-01 17:10:24.942 [TaskBatchingWorker-target_127.0.0.1-11] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-UCENTER/MYCOMPUTER:online-ucenter:8150:Cancel@127.0.0.1: missing entry.
+2020-04-01 17:10:24.942 [TaskBatchingWorker-target_127.0.0.1-11] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-VOD/MYCOMPUTER:online-vod:8103:Cancel@127.0.0.1 failed with response code 404
+2020-04-01 17:10:24.943 [TaskBatchingWorker-target_127.0.0.1-11] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-VOD/MYCOMPUTER:online-vod:8103:Cancel@127.0.0.1: missing entry.
+2020-04-01 17:10:25.665 [http-nio-8002-exec-8] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-EDU/MYCOMPUTER:online-edu:8001
+2020-04-01 17:10:25.667 [TaskBatchingWorker-target_127.0.0.1-1] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-EDU/MYCOMPUTER:online-edu:8001:Cancel@127.0.0.1 failed with response code 404
+2020-04-01 17:10:25.667 [TaskBatchingWorker-target_127.0.0.1-1] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-EDU/MYCOMPUTER:online-edu:8001:Cancel@127.0.0.1: missing entry.

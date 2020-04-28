@@ -1,0 +1,18 @@
+2020-03-17 12:35:29.306 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-03-17 12:35:29.774 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-17 12:35:29.781 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-17 12:35:31.296 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-17 12:48:15.398 [http-nio-8105-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'register_num' doesn't have a default value
+### The error may involve com.online.edu.statistics.mapper.StatisticsDailyMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO statistics_daily  ( id, date_calculated,  login_num, video_view_num, course_num, gmt_create, gmt_modified )  VALUES  ( ?, ?,  ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'register_num' doesn't have a default value
+; Field 'register_num' doesn't have a default value; nested exception is java.sql.SQLException: Field 'register_num' doesn't have a default value]
+2020-03-17 12:49:28.682 [http-nio-8105-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'register_num' doesn't have a default value
+### The error may involve com.online.edu.statistics.mapper.StatisticsDailyMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO statistics_daily  ( id, date_calculated,  login_num, video_view_num, course_num, gmt_create, gmt_modified )  VALUES  ( ?, ?,  ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'register_num' doesn't have a default value
+; Field 'register_num' doesn't have a default value; nested exception is java.sql.SQLException: Field 'register_num' doesn't have a default value]

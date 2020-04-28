@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/online-edu-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/online-teacher-service/pom.xml" />
+        <option value="$PROJECT_DIR$/online-common/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-edu/pom.xml" />
+        <option value="$PROJECT_DIR$/online-common-service-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-crm/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-order/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-vod/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-msm/pom.xml" />
+        <option value="$PROJECT_DIR$/online-springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/online-acl/pom.xml" />
+        <option value="$PROJECT_DIR$/online-common/online-microservice-vod/pom.xml" />
+        <option value="$PROJECT_DIR$/online-micro-service-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-cms/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

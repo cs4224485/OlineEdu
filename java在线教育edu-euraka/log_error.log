@@ -1,0 +1,88 @@
+2020-04-01 12:58:11.560 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8103 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8103 or configure this application to listen on another port.
+
+2020-04-01 19:24:42.340 [TaskBatchingWorker-target_127.0.0.1-3] ERROR c.netflix.eureka.cluster.ReplicationTaskProcessor - It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:190)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.LoggingSessionInputBuffer.readLine(LoggingSessionInputBuffer.java:116)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+2020-04-01 19:25:12.409 [TaskBatchingWorker-target_127.0.0.1-10] ERROR c.netflix.eureka.cluster.ReplicationTaskProcessor - It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:190)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.LoggingSessionInputBuffer.readLine(LoggingSessionInputBuffer.java:116)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted

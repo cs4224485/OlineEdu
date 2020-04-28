@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/online-acl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-common-service-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-edu-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-acl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-acl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-crm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-edu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-msm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-statistics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-ucenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-microservice-vod" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-springsecurity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_security" charset="UTF-8" />
+  </component>
+</project>

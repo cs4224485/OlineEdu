@@ -1,0 +1,11 @@
+2020-03-30 12:14:51.879 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-03-30 12:14:53.829 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-30 12:14:56.039 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-03-30 12:14:56.041 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-30 12:14:56.900 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-03-30 12:14:57.717 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-30 12:15:09.711 [http-nio-8002-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: ONLINE-EDU - windows10.microdone.cn:online-edu:8001
+2020-03-30 12:15:09.713 [http-nio-8002-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): ONLINE-EDU - windows10.microdone.cn:online-edu:8001
+2020-03-30 12:23:01.484 [http-nio-8002-exec-6] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-EDU/windows10.microdone.cn:online-edu:8001
+2020-03-30 12:23:01.487 [TaskBatchingWorker-target_127.0.0.1-5] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-EDU/windows10.microdone.cn:online-edu:8001:Cancel@127.0.0.1 failed with response code 404
+2020-03-30 12:23:01.488 [TaskBatchingWorker-target_127.0.0.1-5] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-EDU/windows10.microdone.cn:online-edu:8001:Cancel@127.0.0.1: missing entry.

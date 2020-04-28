@@ -1,0 +1,82 @@
+2020-03-29 11:15:21.673 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-03-29 11:15:23.376 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-29 11:15:25.332 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-03-29 11:15:25.333 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-29 11:15:26.521 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-29 12:55:01.220 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-03-29 12:55:01.222 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-29 12:55:02.305 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-29 12:55:02.497 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@4688ef1f[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3182546c[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$838/0x0000000800776040@3b59d15f]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@504c93eb[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 60]
+2020-03-29 12:55:02.512 [restartedMain] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Destroy method 'shutdown' on bean with name 'peerAwareInstanceRegistry' threw an exception
+java.lang.NullPointerException: null
+	at com.netflix.eureka.registry.AbstractInstanceRegistry.shutdown(AbstractInstanceRegistry.java:1231)
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:563)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.online.edu.euraka.EurekaServerApplication.main(EurekaServerApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-03-29 12:55:09.242 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-03-29 12:55:09.245 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-29 12:55:10.407 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-29 12:55:10.576 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration': Unsatisfied dependency expressed through field 'eurekaServerBootstrap'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaServerBootstrap' defined in class path resource [org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'eurekaServerBootstrap' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaServerContext': Invocation of init method failed; nested exception is java.lang.IllegalStateException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@57de92f1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2a5352ef[Wrapped task = com.netflix.servo.monitor.StatsMonitor$$Lambda$838/0x0000000800776040@18957bcb]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@504c93eb[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 60]
+2020-03-29 12:55:10.685 [restartedMain] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Destroy method 'shutdown' on bean with name 'peerAwareInstanceRegistry' threw an exception
+java.lang.NullPointerException: null
+	at com.netflix.eureka.registry.AbstractInstanceRegistry.shutdown(AbstractInstanceRegistry.java:1231)
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:563)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.online.edu.euraka.EurekaServerApplication.main(EurekaServerApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-03-29 15:03:14.545 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-03-29 15:03:16.064 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-29 15:03:18.370 [restartedMain] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-03-29 15:03:18.372 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-03-29 15:03:19.051 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-03-29 15:03:19.665 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-29 15:03:49.183 [http-nio-8002-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: ONLINE-EDU - windows10.microdone.cn:online-edu:8001
+2020-03-29 15:03:49.186 [http-nio-8002-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): ONLINE-EDU - windows10.microdone.cn:online-edu:8001
+2020-03-29 16:41:22.921 [http-nio-8002-exec-3] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: ONLINE-EDU/windows10.microdone.cn:online-edu:8001
+2020-03-29 16:41:22.944 [TaskBatchingWorker-target_127.0.0.1-14] WARN  com.netflix.eureka.cluster.ReplicationTask - The replication of task ONLINE-EDU/windows10.microdone.cn:online-edu:8001:Cancel@127.0.0.1 failed with response code 404
+2020-03-29 16:41:22.945 [TaskBatchingWorker-target_127.0.0.1-14] WARN  com.netflix.eureka.cluster.PeerEurekaNode - ONLINE-EDU/windows10.microdone.cn:online-edu:8001:Cancel@127.0.0.1: missing entry.

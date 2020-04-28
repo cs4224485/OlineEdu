@@ -1,0 +1,674 @@
+2020-04-01 11:41:28.823 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 11:41:29.694 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 11:41:29.700 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 11:41:32.081 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 11:55:48.215 [http-nio-8001-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:56:31.890 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:57:20.815 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:57:22.461 [http-nio-8001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:57:22.479 [http-nio-8001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:58:27.669 [http-nio-8001-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:58:27.695 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:58:29.117 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:58:30.481 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:58:30.504 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:58:33.549 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "NaN"]
+2020-04-01 11:58:33.898 [http-nio-8001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "NaN"]
+2020-04-01 11:59:31.960 [http-nio-8001-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:59:33.947 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 11:59:33.972 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:00:16.111 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:00:18.033 [http-nio-8001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:00:18.061 [http-nio-8001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:01:00.102 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:01:11.730 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:01:13.841 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:01:13.875 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:08.213 [http-nio-8001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:08.963 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:12.518 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:12.530 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:29.642 [http-nio-8001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:30.332 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:32.483 [http-nio-8001-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:32.504 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:43.070 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:45.063 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:02:45.086 [http-nio-8001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:03:42.620 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 12:03:43.530 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:03:43.535 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:03:45.779 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 12:03:54.810 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:03:57.202 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:03:57.229 [http-nio-8001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.
+### The error may exist in com/online/edu/education/mapper/EduCommentMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: Error: Method queryTotal execution error.]
+2020-04-01 12:06:07.969 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [feign.FeignException$NotFound: [404] during [GET] to [http://online-ucenter/ucenter/member/getUcenterPay/1244487678220255233] [UcenterClient#getUcenterPay(String)]: [{"timestamp":"2020-04-01 12:06:07","status":404,"error":"Not Found","message":"No message available","path":"/ucenter/member/getUcenterPay/1244487678220255233"}]]
+2020-04-01 12:08:13.531 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 12:08:14.453 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:08:14.459 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 12:08:16.051 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:14:58.379 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:16:51.345 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:16:51.351 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:16:52.264 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:16:53.414 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:18:38.477 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:18:38.484 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:18:39.331 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:18:40.439 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:20:03.947 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:20:03.953 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:20:04.790 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:20:05.949 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:20:20.501 [Thread-1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1585718420501, current=DOWN, previous=UP]
+2020-04-01 13:20:48.430 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:20:48.440 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:20:49.979 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:20:51.816 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:21:27.064 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:21:27.069 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:21:27.645 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:21:28.799 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:22:40.181 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:22:40.187 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:22:40.779 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:22:41.947 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:22:43.381 [restartedMain] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1585718563381, current=DOWN, previous=UP]
+2020-04-01 13:23:03.976 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:23:03.982 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:23:04.551 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:23:05.812 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:23:24.597 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:23:25.932 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:23:25.942 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:23:28.430 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 13:24:23.635 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:24:23.641 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 13:24:24.286 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 13:24:25.443 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:10:21.283 [Thread-1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1585732221283, current=DOWN, previous=UP]
+2020-04-01 17:10:21.839 [Thread-1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1585732221839, current=DOWN, previous=UP]
+2020-04-01 17:10:31.495 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:10:32.190 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:10:34.612 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:10:36.135 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:10:37.060 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:10:40.016 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:10:56.611 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:10:57.146 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:10:57.152 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:10:59.118 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:13:30.197 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:13:30.767 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:13:30.776 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:13:32.653 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:13:40.154 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.online.edu.order.service.OrderService.saveOrder]
+2020-04-01 17:13:57.470 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.online.edu.order.service.OrderService.saveOrder]
+2020-04-01 17:14:02.381 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-04-01 17:14:35.366 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:14:35.973 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:14:35.981 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:14:37.917 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:15:25.638 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-01 17:16:25.548 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:16:26.104 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:16:26.112 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:16:28.036 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:16:48.497 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.online.edu.order.service.OrderService.saveOrder]
+2020-04-01 17:18:22.651 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:18:23.313 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:18:23.324 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:18:25.361 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:18:31.621 [http-nio-8001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:18:32.646 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+### The error may involve com.online.edu.order.mapper.OrderMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order  ( id, order_no, course_id,    member_id, nickname, mobile,  pay_type, status,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,    ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1]
+2020-04-01 17:22:00.251 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:22:00.808 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:22:00.815 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:22:02.747 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:22:18.635 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:22:19.345 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+### The error may involve com.online.edu.order.mapper.OrderMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order  ( id, order_no, course_id,    member_id, nickname, mobile,  pay_type, status,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,    ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1]
+2020-04-01 17:24:37.910 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:24:37.933 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+### The error may involve com.online.edu.order.mapper.OrderMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order  ( id, order_no, course_id,    member_id, nickname, mobile,  pay_type, status,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,    ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1]
+2020-04-01 17:24:54.652 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:24:54.680 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+### The error may involve com.online.edu.order.mapper.OrderMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order  ( id, order_no, course_id,    member_id, nickname, mobile,  pay_type, status,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,    ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1]
+2020-04-01 17:25:44.695 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:25:45.217 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:25:45.223 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:25:47.122 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:26:08.911 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:26:09.647 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+### The error may involve com.online.edu.order.mapper.OrderMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO order  ( id, order_no, course_id,    member_id, nickname, mobile,  pay_type, status,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,    ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order  ( id,
+order_no,
+course_id,
+
+
+
+member_id,
+nickname,
+mobile,
+
+pay_type,
+sta' at line 1]
+2020-04-01 17:35:01.529 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:35:02.117 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:35:02.126 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:35:04.251 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:35:12.317 [http-nio-8001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:35:13.019 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1
+### The error may involve com.online.edu.order.mapper.OrderMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_order  ( id, order_no, course_id,    member_id, nickname, mobile,  pay_type, status,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,    ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1
+; Data truncation: Data too long for column 'order_no' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1]
+2020-04-01 17:36:44.356 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:36:44.928 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:36:44.934 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:36:47.037 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:36:51.505 [http-nio-8001-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:37:03.438 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:38:54.863 [http-nio-8001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:39:31.600 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:40:28.463 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:41:08.578 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:44:18.002 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:46:25.806 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:52:04.748 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 17:52:05.319 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:52:05.326 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 17:52:07.375 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 17:56:14.906 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 17:56:15.792 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'deleted' in 'field list'
+### The error may exist in com/online/edu/order/mapper/OrderMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,order_no,course_id,course_title,course_cover,teacher_name,member_id,nickname,mobile,total_fee,pay_type,status,deleted,gmt_create,gmt_modified  FROM t_order    WHERE  order_no = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'deleted' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'deleted' in 'field list']
+2020-04-01 18:07:28.868 [http-nio-8001-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 18:17:58.210 [http-nio-8001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "getDto"]
+2020-04-01 18:23:29.695 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:23:30.999 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:23:31.014 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:23:35.217 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:23:44.322 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:23:45.627 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:23:45.634 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:23:47.899 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:27:53.708 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:27:54.794 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:27:54.806 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:27:56.755 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:36:11.698 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:36:12.299 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:36:12.304 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:36:14.223 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:42:05.319 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:42:05.329 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:42:06.141 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:42:07.613 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:44:21.580 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:44:22.152 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:44:22.157 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:44:23.968 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:44:26.142 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:26.152 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:29.114 [http-nio-8007-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:32.108 [http-nio-8007-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:35.111 [http-nio-8007-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:38.107 [http-nio-8007-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:41.111 [http-nio-8007-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:44.109 [http-nio-8007-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:47.108 [http-nio-8007-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:49.200 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:50.113 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:52.307 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:55.305 [http-nio-8007-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:44:58.316 [http-nio-8007-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:01.305 [http-nio-8007-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:04.305 [http-nio-8007-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:07.314 [http-nio-8007-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:10.302 [http-nio-8007-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:13.307 [http-nio-8007-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:16.308 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:19.306 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:22.309 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:25.304 [http-nio-8007-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:28.302 [http-nio-8007-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:31.303 [http-nio-8007-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:34.303 [http-nio-8007-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:37.304 [http-nio-8007-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:40.322 [http-nio-8007-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:43.308 [http-nio-8007-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:46.305 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:49.314 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:52.304 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:55.303 [http-nio-8007-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:45:58.306 [http-nio-8007-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:01.305 [http-nio-8007-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:04.304 [http-nio-8007-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:07.313 [http-nio-8007-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:10.310 [http-nio-8007-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:13.305 [http-nio-8007-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:34.761 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:46:35.342 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:46:35.348 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:46:37.323 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:46:39.559 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:39.576 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:39.597 [http-nio-8007-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:39.609 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:39.621 [http-nio-8007-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:39.640 [http-nio-8007-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:41.114 [http-nio-8007-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:44.107 [http-nio-8007-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:47.114 [http-nio-8007-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:50.132 [http-nio-8007-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:53.106 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:56.122 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:46:59.106 [http-nio-8007-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:02.107 [http-nio-8007-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:05.117 [http-nio-8007-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:08.112 [http-nio-8007-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:11.112 [http-nio-8007-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:14.120 [http-nio-8007-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:17.111 [http-nio-8007-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:20.177 [http-nio-8007-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:23.107 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:26.119 [http-nio-8007-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'orderNO' for method parameter of type String]
+2020-04-01 18:47:45.120 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-01 18:47:45.720 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:47:45.728 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-01 18:47:47.743 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-01 18:47:51.590 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1
+### The error may involve com.online.edu.order.mapper.PayLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO pay_log  ( id, order_no, pay_time, total_fee, transaction_id, trade_state, pay_type, attr,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1
+; Data truncation: Data too long for column 'order_no' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1]
+2020-04-01 18:49:06.211 [http-nio-8007-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1
+### The error may involve com.online.edu.order.mapper.PayLogMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO pay_log  ( id, order_no, pay_time, total_fee, transaction_id, trade_state, pay_type, attr,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?,  ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1
+; Data truncation: Data too long for column 'order_no' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'order_no' at row 1]
+2020-04-02 14:23:01.409 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-02 14:23:02.523 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:23:02.529 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:23:04.255 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-02 14:24:29.055 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-02 14:24:29.615 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:24:29.626 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:24:31.406 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-02 14:30:16.751 [http-nio-8001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [feign.FeignException$NotFound: [404] during [GET] to [http://online-order/orderservice/order/isBuyCourse//1236278861334446082] [OrderClient#isBuyCourse(String,String)]: [{"timestamp":"2020-04-02 14:30:16","status":404,"error":"Not Found","message":"No message available","path":"/orderservice/order/isBuyCourse//1236278861334446082"}]]
+2020-04-02 14:30:20.076 [http-nio-8001-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [feign.FeignException$NotFound: [404] during [GET] to [http://online-order/orderservice/order/isBuyCourse//1236278861334446082] [OrderClient#isBuyCourse(String,String)]: [{"timestamp":"2020-04-02 14:30:20","status":404,"error":"Not Found","message":"No message available","path":"/orderservice/order/isBuyCourse//1236278861334446082"}]]
+2020-04-02 14:31:08.409 [http-nio-8001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [feign.FeignException$NotFound: [404] during [GET] to [http://online-order/orderservice/order/isBuyCourse//1236278861334446082] [OrderClient#isBuyCourse(String,String)]: [{"timestamp":"2020-04-02 14:31:08","status":404,"error":"Not Found","message":"No message available","path":"/orderservice/order/isBuyCourse//1236278861334446082"}]]
+2020-04-02 14:31:10.018 [http-nio-8001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [feign.FeignException$NotFound: [404] during [GET] to [http://online-order/orderservice/order/isBuyCourse//1236278861334446082] [OrderClient#isBuyCourse(String,String)]: [{"timestamp":"2020-04-02 14:31:10","status":404,"error":"Not Found","message":"No message available","path":"/orderservice/order/isBuyCourse//1236278861334446082"}]]
+2020-04-02 14:31:11.784 [http-nio-8001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [feign.FeignException$NotFound: [404] during [GET] to [http://online-order/orderservice/order/isBuyCourse//1236278861334446082] [OrderClient#isBuyCourse(String,String)]: [{"timestamp":"2020-04-02 14:31:11","status":404,"error":"Not Found","message":"No message available","path":"/orderservice/order/isBuyCourse//1236278861334446082"}]]
+2020-04-02 14:35:19.308 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-02 14:35:20.399 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:35:20.405 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:35:21.974 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-02 14:40:33.114 [http-nio-8001-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2020-04-02 14:40:33.116 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]
+2020-04-02 14:42:08.276 [http-nio-8007-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [feign.FeignException$NotFound: [404] during [GET] to [http://online-ucenter/ucenter/member/getInfoUc/] [UcenterClient#getUcenterPay(String)]: [{"timestamp":"2020-04-02 14:42:08","status":404,"error":"Not Found","message":"No message available","path":"/ucenter/member/getInfoUc/"}]]
+2020-04-02 14:45:45.894 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-04-02 14:45:46.363 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:45:46.368 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:45:47.966 [restartedMain] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.

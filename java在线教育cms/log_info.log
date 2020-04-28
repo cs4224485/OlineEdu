@@ -1,0 +1,33 @@
+2020-04-01 11:43:32.482 [restartedMain] INFO  com.online.edu.crm.CrmServiceApplication - Starting CrmServiceApplication on MYCOMPUTER with PID 22360 (G:\OlineEdu\online-microservice-crm\target\classes started by harry.cai in G:\OlineEdu)
+2020-04-01 11:43:32.508 [restartedMain] INFO  com.online.edu.crm.CrmServiceApplication - The following profiles are active: dev
+2020-04-01 11:43:32.603 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\harry.cai\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/harry.cai/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2020-04-01 11:43:32.604 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\harry.cai\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/harry.cai/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2020-04-01 11:43:32.605 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-01 11:43:32.606 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-01 11:43:33.983 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-01 11:43:33.986 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-01 11:43:34.025 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-04-01 11:43:34.384 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-01 11:43:34.392 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.online.edu.common.handler.RedisConfig$$EnhancerBySpringCGLIB$$5cd92ecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-01 11:43:34.794 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2020-04-01 11:43:34.805 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2020-04-01 11:43:34.806 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 11:43:34.806 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-04-01 11:43:35.014 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 11:43:35.014 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2408 ms
+2020-04-01 11:43:35.247 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - CmsHikariPool - Starting...
+2020-04-01 11:43:35.403 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - CmsHikariPool - Start completed.
+2020-04-01 11:43:35.962 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-01 11:43:36.358 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 11:43:36.660 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-01 11:43:36.675 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-01 11:43:36.731 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-01 11:43:37.011 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+2020-04-01 11:43:37.063 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2020-04-01 11:43:37.095 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2020-04-01 11:43:37.098 [restartedMain] INFO  com.online.edu.crm.CrmServiceApplication - Started CrmServiceApplication in 5.543 seconds (JVM running for 7.844)
+2020-04-01 11:49:38.048 [http-nio-8004-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 11:49:38.051 [http-nio-8004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-01 11:49:38.078 [http-nio-8004-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+2020-04-01 11:49:38.640 [http-nio-8004-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-01 11:49:38.643 [http-nio-8004-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library

@@ -1,0 +1,71 @@
+2020-04-02 00:00:31.613 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 00:05:31.657 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 00:10:31.658 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:23:23.268 [restartedMain] INFO  com.online.edu.ucenter.UcenterApplication - The following profiles are active: dev
+2020-04-02 14:23:25.007 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-02 14:23:25.042 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-02 14:23:25.098 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-04-02 14:23:25.729 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=34c9661c-422e-3346-81e2-8fabfe0af8b3
+2020-04-02 14:23:25.922 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.online.edu.common.handler.RedisConfig$$EnhancerBySpringCGLIB$$b5a4cd66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 14:23:25.976 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 14:23:26.781 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8150 (http)
+2020-04-02 14:23:26.796 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8150"]
+2020-04-02 14:23:26.796 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-02 14:23:26.797 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-04-02 14:23:27.215 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-02 14:23:27.215 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3915 ms
+2020-04-02 14:23:27.524 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2020-04-02 14:23:27.732 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2020-04-02 14:23:28.781 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-02 14:23:28.829 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 14:23:28.836 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 14:23:29.041 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 14:23:31.011 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2020-04-02 14:23:31.077 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-04-02 14:23:31.321 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-04-02 14:23:31.322 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-04-02 14:23:31.567 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-04-02 14:23:31.569 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-04-02 14:23:31.803 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:23:32.178 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-04-02 14:23:32.179 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-04-02 14:23:32.179 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-04-02 14:23:32.180 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-04-02 14:23:32.180 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-04-02 14:23:32.181 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-04-02 14:23:32.181 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-04-02 14:23:32.405 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-04-02 14:23:32.408 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020-04-02 14:23:32.411 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-02 14:23:32.414 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1585808612413 with initial instances count: 1
+2020-04-02 14:23:32.421 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application ONLINE-UCENTER with eureka with status UP
+2020-04-02 14:23:32.422 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1585808612422, current=UP, previous=STARTING]
+2020-04-02 14:23:32.425 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-UCENTER/MYCOMPUTER:online-ucenter:8150: registering service...
+2020-04-02 14:23:32.426 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-02 14:23:32.456 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-02 14:23:32.489 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ONLINE-UCENTER/MYCOMPUTER:online-ucenter:8150 - registration status: 204
+2020-04-02 14:23:32.530 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-02 14:23:32.838 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8150"]
+2020-04-02 14:23:32.891 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8150 (http) with context path ''
+2020-04-02 14:23:32.893 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8150
+2020-04-02 14:23:33.457 [restartedMain] INFO  com.online.edu.ucenter.UcenterApplication - Started UcenterApplication in 13.232 seconds (JVM running for 16.026)
+2020-04-02 14:28:32.184 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:33:32.187 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:38:32.189 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:42:08.188 [http-nio-8150-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-02 14:42:08.189 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-02 14:42:08.197 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-04-02 14:43:32.190 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:48:32.192 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:53:32.194 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 14:58:32.196 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:03:32.198 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:08:32.200 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:13:32.202 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:18:32.203 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:23:32.206 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:28:32.209 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:33:32.212 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:38:32.213 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:43:32.215 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-04-02 15:48:32.216 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

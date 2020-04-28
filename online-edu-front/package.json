@@ -1,0 +1,40 @@
+{
+  "name": "onlinename",
+  "version": "1.0.0",
+  "description": "description",
+  "author": "test",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "element-ui": "^2.13.0",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.12.1",
+    "swiper": "^5.3.6",
+    "vue-awesome-swiper": "^4.0.4",
+    "vue-qriously": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  },
+  "config": {
+    "nuxt": {
+      "host": "localhost",
+      "port": "3333"
+      }
+    },
+    "scripts": {
+      "dev": "nuxt"
+    }
+}

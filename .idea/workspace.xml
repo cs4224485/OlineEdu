@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="514bc3ec-6ba4-4fae-94e4-c7311d98b4db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/OlineEdu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ecs_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_sts_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_vod_2_15_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_sdk_vod_upload_1_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_wxpay_wxpay_sdk_0_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common-service-eureka/online-common-service-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common-service-eureka/src/main/java/com/online/edu/euraka/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common-service-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common-service-eureka/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/online-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/constants/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/CommonMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/ExcelImportUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/ChapterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/CoursePublishVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/CourseWebVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/RegisterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/SubjectNestedVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/SubjectVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/UserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/vo/VideoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-gateway/online-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/handler/ErrorHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/handler/JsonExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/online-microservice-acl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/ServiceAclApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/helper/MemuHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/helper/PermissionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/RolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/RolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/IndexService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/RolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/IndexServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-acl/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/online-microservice-crm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/main/java/com/online/edu/crm/CrmServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/main/java/com/online/edu/crm/config/MyCmsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/main/java/com/online/edu/crm/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/main/java/com/online/edu/crm/controller/BannerApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/main/java/com/online/edu/crm/controller/CrmBannerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-crm/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/online-microservice-edu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/EduServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/client/OrderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/client/UcenterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/client/VodClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/config/MyEduConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/front/FrontCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/front/FrontEduCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/front/FrontEduTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/front/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/entity/form/CourseInfoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/entity/form/VideoInfoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/entity/query/CourseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/entity/query/TeacherQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/service/impl/EduCourseDescriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/src/test/java/com/online/test/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/target/classes/com/online/edu/EduServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-edu/target/test-classes/com/online/test/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-msm/online-microservice-msm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-msm/src/main/java/com/online/edu/msm/ServiceMsmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-msm/src/main/java/com/online/edu/msm/controller/MsmApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-msm/src/main/java/com/online/edu/msm/service/MsmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-msm/src/main/java/com/online/edu/msm/service/impl/MsmServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-msm/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-msm/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/online-microservice-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/src/main/java/com/online/edu/order/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/src/main/java/com/online/edu/order/client/EduClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/src/main/java/com/online/edu/order/client/UcenterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/src/main/java/com/online/edu/order/util/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-order/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/online-microservice-oss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/java/com/online/edu/AliyunOssApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/java/com/online/edu/oss/Utils/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/java/com/online/edu/oss/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/java/com/online/edu/oss/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/java/com/online/edu/oss/service/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-oss/src/main/resources/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/online-microservice-statistics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/java/com/online/edu/statistics/StatisticsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/java/com/online/edu/statistics/client/UcenterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/java/com/online/edu/statistics/config/MyUcenterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/java/com/online/edu/statistics/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/java/com/online/edu/statistics/shedule/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/java/com/online/edu/statistics/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-statistics/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/online-microservice-ucenter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/java/com/online/edu/ucenter/UcenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/java/com/online/edu/ucenter/api/WxApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/java/com/online/edu/ucenter/config/MyUcenterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/java/com/online/edu/ucenter/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/java/com/online/edu/ucenter/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/java/com/online/edu/ucenter/util/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/java/com/online/edu/ucenter/util/HttpclientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-ucenter/src/test/java/test/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/online-microservice-vod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/java/com/online/edu/vod/VodApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/java/com/online/edu/vod/controller/VideoAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/java/com/online/edu/vod/controller/VideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/java/com/online/edu/vod/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/java/com/online/edu/vod/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/java/com/online/edu/vod/util/AliyunVodSDKUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/java/com/online/edu/vod/util/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-microservice-vod/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/online-springsecurity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/config/TokenWebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/entity/SecurityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/filter/TokenLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/security/DefaultPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/security/TokenLogoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/security/TokenManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/security/UnauthorizedEntryPoint.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/online-edu-parent/target/" />
+    <ignored path="$PROJECT_DIR$/online-teacher-service/target/" />
+    <ignored path="$PROJECT_DIR$/online-common/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-oss/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-Subject/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-edu/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-vod/target/" />
+    <ignored path="$PROJECT_DIR$/online-common-service-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-ucenter/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-statistics/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-cms/target/" />
+    <ignored path="$PROJECT_DIR$/online-micro-service-cms/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-crm/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-msm/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-order/target/" />
+    <ignored path="$PROJECT_DIR$/online-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/online-acl/target/" />
+    <ignored path="$PROJECT_DIR$/spring_security/target/" />
+    <ignored path="$PROJECT_DIR$/online-springsecurity/target/" />
+    <ignored path="$PROJECT_DIR$/online-microservice-acl/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/mapper/EduCourseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/mapper/EduCourseDescriptionMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/EduServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/CommonMetaObjectHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/service/impl/EduSubjectServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.jar!/org/springframework/transaction/config/JtaTransactionManagerFactoryBean.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-845">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.1.RELEASE/spring-jdbc-5.2.1.RELEASE.jar!/org/springframework/jdbc/BadSqlGrammarException.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lombok</find>
+      <find>joint</find>
+      <find>spring-boot-starter-web</find>
+      <find>selectPermissionByUserId</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/RolePermissionService.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/UserRoleService.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/mapper/UserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/mapper/RolePermissionMapper.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/UserService.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/impl/UserRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/impl/RolePermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/impl/IndexServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/helper/PermissionHelper.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/helper/MemuHelper.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/security/DefaultPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/ResponseUtil.java" />
+        <option value="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/security/TokenLogoutHandler.java" />
+        <option value="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/security/UnauthorizedEntryPoint.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/service/impl/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-microservice-edu/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/java/com/online/edu/acl/ServiceAclApplication.java" />
+        <option value="$PROJECT_DIR$/online-acl/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/online-edu-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/pom.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/PermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/RolePermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/mapper/xml/UserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/config/TokenWebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/ServiceAclApplication.java" />
+        <option value="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/filter/TokenLoginFilter.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/filter/TokenAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/entity/EduTeacher.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/UserRole.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/User.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/RolePermission.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/Role.java" />
+        <option value="$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/Permission.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="online-edu-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="online-edu-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="online-springsecurity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="online-springsecurity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.projectlombok:lombok:1.18.10" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="RedisCacheManager" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jdbc:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jdbc:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-jdbc-5.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jdbc:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-jdbc-5.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jdbc:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-jdbc-5.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="BadSqlGrammarException" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-5.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-5.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-5.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlineEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:5.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-5.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/offerCode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.32540673" />
+    <property name="project.structure.side.proportion" value="0.48321342" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\OlineEdu\online-microservice-acl\src\main\java\com\online\edu\acl" />
+      <recent name="G:\OlineEdu\online-microservice-acl\src\main\resources" />
+      <recent name="G:\OlineEdu\online-acl\src\main\resources" />
+      <recent name="G:\OlineEdu\online-common\src\main\java\com\online\edu\common\utils" />
+      <recent name="G:\OlineEdu\online-springsecurity\src\main\java\com\online\edu\security" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.online.edu.order" />
+      <recent name="com.online.edu.order.client" />
+      <recent name="" />
+      <recent name="com.online.edu.cms" />
+      <recent name="test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\OlineEdu\online-microservice-vod\src\main\resources" />
+      <recent name="G:\OlineEdu\online-microservice-vod\src\main\java\com\online\edu\vod" />
+      <recent name="G:\OlineEdu\online-common-service-eureka\src\main\resources" />
+      <recent name="G:\OlineEdu\online-microservice-edu\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="CodeGenerator.genCode (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="online-microservice-order" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
+      <option name="METHOD_NAME" value="genCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AliyunOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-microservice-oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.AliyunOssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrmServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-microservice-crm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.edu.crm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.crm.CrmServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-microservice-edu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.EduServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-common-service-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.edu.euraka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.euraka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-microservice-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.edu.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.order.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAclApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-microservice-acl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.edu.acl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.acl.ServiceAclApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAclApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-acl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.acl.ServiceAclApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMsmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-microservice-msm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.msm.ServiceMsmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-microservice-statistics" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.statistics.StatisticsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-microservice-ucenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.ucenter.UcenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-microservice-vod" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.vod.VodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-microservice-vod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.edu.vod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.vod.VodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CodeGenerator.genCode (1)" />
+      <item itemvalue="Spring Boot.EduServiceApplication" />
+      <item itemvalue="Spring Boot.VodApplication" />
+      <item itemvalue="Spring Boot.UcenterApplication" />
+      <item itemvalue="Spring Boot.StatisticsApplication" />
+      <item itemvalue="Spring Boot.AliyunOssApplication" />
+      <item itemvalue="Spring Boot.ServiceMsmApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.ServiceAclApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.CrmServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.ServiceAclApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceAclApplication (1)" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="JUnit.CodeGenerator.genCode (1)" />
+        <item itemvalue="Spring Boot.CrmServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringConfigurationTabSettings">
+    <option name="sortAlpha" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="514bc3ec-6ba4-4fae-94e4-c7311d98b4db" name="Default Changelist" comment="" />
+      <created>1582173954422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582173954422</updated>
+      <workItem from="1582173955932" duration="3180000" />
+      <workItem from="1582256232845" duration="3109000" />
+      <workItem from="1582335782786" duration="6034000" />
+      <workItem from="1582425390875" duration="586000" />
+      <workItem from="1582533844298" duration="4693000" />
+      <workItem from="1582625933492" duration="10606000" />
+      <workItem from="1582684919870" duration="8397000" />
+      <workItem from="1582772939600" duration="2756000" />
+      <workItem from="1582945010049" duration="1000" />
+      <workItem from="1582945221410" duration="15228000" />
+      <workItem from="1583029015600" duration="1638000" />
+      <workItem from="1583114791572" duration="6059000" />
+      <workItem from="1583199040718" duration="3840000" />
+      <workItem from="1583285314310" duration="5686000" />
+      <workItem from="1583374084421" duration="5353000" />
+      <workItem from="1583554794080" duration="6154000" />
+      <workItem from="1583742840535" duration="9985000" />
+      <workItem from="1583810665210" duration="9425000" />
+      <workItem from="1584015053894" duration="7368000" />
+      <workItem from="1584153866182" duration="6409000" />
+      <workItem from="1584200314960" duration="482000" />
+      <workItem from="1584200848922" duration="451000" />
+      <workItem from="1584201357621" duration="706000" />
+      <workItem from="1584340297263" duration="11666000" />
+      <workItem from="1584414684479" duration="5380000" />
+      <workItem from="1585187802601" duration="7431000" />
+      <workItem from="1585274331499" duration="12855000" />
+      <workItem from="1585361989283" duration="4730000" />
+      <workItem from="1585445891184" duration="12491000" />
+      <workItem from="1585463825449" duration="11594000" />
+      <workItem from="1585533092154" duration="10606000" />
+      <workItem from="1585620588069" duration="1493000" />
+      <workItem from="1585708157768" duration="334000" />
+      <workItem from="1585708739780" duration="7230000" />
+      <workItem from="1585716550515" duration="15948000" />
+      <workItem from="1585807692895" duration="2830000" />
+      <workItem from="1586314179013" duration="1490000" />
+      <workItem from="1586327586663" duration="11398000" />
+      <workItem from="1586395908771" duration="13949000" />
+      <workItem from="1586503104431" duration="1000" />
+      <workItem from="1586503224078" duration="589000" />
+      <workItem from="1586748442678" duration="594000" />
+      <workItem from="1586827018014" duration="586000" />
+      <workItem from="1586915063049" duration="582000" />
+      <workItem from="1587004876623" duration="1260000" />
+      <workItem from="1587176388221" duration="589000" />
+      <workItem from="1587262878563" duration="595000" />
+      <workItem from="1587345672020" duration="1477000" />
+      <workItem from="1587516805583" duration="594000" />
+      <workItem from="1587607849639" duration="2977000" />
+      <workItem from="1587692281308" duration="8000" />
+      <workItem from="1587692794807" duration="592000" />
+      <workItem from="1587778490246" duration="3161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CodeGenerator_genCode_(2) - 2020.03.17 at 11h 34m 16s.xml">
+      <configuration name="CodeGenerator.genCode (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode - 2020.03.29 at 10h 14m 43s.xml">
+      <configuration name="CodeGenerator.genCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode - 2020.03.29 at 10h 16m 30s.xml">
+      <configuration name="CodeGenerator.genCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode - 2020.03.29 at 10h 17m 13s.xml">
+      <configuration name="CodeGenerator.genCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode_(1) - 2020.03.29 at 14h 22m 01s.xml">
+      <configuration name="CodeGenerator.genCode (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode_(1) - 2020.03.29 at 14h 23m 06s.xml">
+      <configuration name="CodeGenerator.genCode (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode_(2) - 2020.03.29 at 15h 24m 49s.xml">
+      <configuration name="CodeGenerator.genCode (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode - 2020.04.01 at 10h 58m 05s.xml">
+      <configuration name="CodeGenerator.genCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode_(1) - 2020.04.01 at 15h 05m 46s.xml">
+      <configuration name="CodeGenerator.genCode (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerator_genCode_(1) - 2020.04.01 at 15h 07m 11s.xml">
+      <configuration name="CodeGenerator.genCode (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="263176000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" x="1417" y="261" width="475" height="482" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.28411514" />
+      <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.21861702" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27982646" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.23187633" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" x="1417" y="261" width="475" height="482" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20173536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.09221748" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1947">
+          <caret line="74" selection-start-line="74" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="80" selection-start-line="80" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-springsecurity/src/main/java/com/online/edu/security/filter/TokenAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1551">
+          <caret line="66" selection-start-line="66" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/handler/ErrorHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/handler/JsonExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/RolePermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-acl/src/main/java/com/online/edu/acl/entity/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/entity/EduTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/gateway/filter/AuthGlobalFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.2.RELEASE/spring-cloud-netflix-eureka-client-2.2.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-gateway/src/main/java/com/online/edu/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/EduCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/front/FrontCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/entity/EduComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/EduVideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/mapper/xml/EduChapterMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10-sources.jar!/lombok/EqualsAndHashCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/constants/ResultCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/exception/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/ExcelImportUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/utils/JwtUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="181" column="33" selection-start-line="181" selection-start-column="33" selection-end-line="181" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/EduChapterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/controller/front/FrontEduTeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/service/impl/EduCommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/service/impl/EduCourseDescriptionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/service/EduChapterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/mapper/EduCommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/mapper/EduTeacherMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/EduServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/mapper/EduCourseDescriptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/mapper/EduCourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/CommonMetaObjectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-microservice-edu/src/main/java/com/online/edu/education/service/impl/EduSubjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.1.RELEASE/spring-tx-5.2.1.RELEASE.jar!/org/springframework/transaction/config/JtaTransactionManagerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-845">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.1.RELEASE/spring-jdbc-5.2.1.RELEASE.jar!/org/springframework/jdbc/BadSqlGrammarException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/com/online/edu/common/handler/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48321342" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (online-microservice-oss)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48321342" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30140847" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48321342" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|online-acl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48321342" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48321342" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30140847" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

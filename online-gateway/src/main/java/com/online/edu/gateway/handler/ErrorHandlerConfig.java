@@ -1,0 +1,45 @@
+//package com.online.edu.gateway.handler;
+//
+//import org.springframework.beans.factory.ObjectProvider;
+//import org.springframework.boot.autoconfigure.web.ResourceProperties;
+//import org.springframework.boot.autoconfigure.web.ServerProperties;
+//import org.springframework.boot.context.properties.EnableConfigurationProperties;
+//
+//import org.springframework.context.ApplicationContext;
+//import org.springframework.context.annotation.Configuration;
+//import org.springframework.http.codec.ServerCodecConfigurer;
+//
+//import org.springframework.web.servlet.ViewResolver;
+//
+//import java.util.Collections;
+//import java.util.List;
+//
+///**
+// * 覆盖默认的异常处理
+// */
+//@Configuration
+//@EnableConfigurationProperties({ServerProperties.class, ResourceProperties.class})
+//public class ErrorHandlerConfig {
+//
+//    private final ServerProperties serverProperties;
+//
+//    private final ApplicationContext applicationContext;
+//
+//    private final ResourceProperties resourceProperties;
+//
+//    private final List<ViewResolver> viewResolvers;
+//
+//    private final ServerCodecConfigurer serverCodecConfigurer;
+//
+//    public ErrorHandlerConfig(ServerProperties serverProperties,
+//                              ResourceProperties resourceProperties,
+//                              ObjectProvider<List<ViewResolver>> viewResolversProvider,
+//                              ServerCodecConfigurer serverCodecConfigurer,
+//                              ApplicationContext applicationContext) {
+//        this.serverProperties = serverProperties;
+//        this.applicationContext = applicationContext;
+//        this.resourceProperties = resourceProperties;
+//        this.viewResolvers = viewResolversProvider.getIfAvailable(Collections::emptyList);
+//        this.serverCodecConfigurer = serverCodecConfigurer;
+//    }
+//}
